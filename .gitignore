@@ -1,0 +1,28 @@
+# Build outputs
+bin/
+obj/
+
+# NuGet packages (classic)
+packages/
+
+# Logs
+*.log
+
+# Compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# NuGet artifacts
+*.nupkg
+*.snupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
