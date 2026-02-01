@@ -346,7 +346,7 @@ Partial Class frmSalaryProtectionSystem2
             Dim strFilter As String = " "
 
             If TextBox_Sponsor.Text <> "" Then
-                strFilter &= " And e.SponsorID in (select ID from hrs_Sponsors where Code in (" & TextBox_Sponsor.Text & ") "
+                strFilter &= " And e.SponsorID in (select ID from hrs_Sponsors where Code in (" & TextBox_Sponsor.Text & ")) "
             End If
 
             If TextBox_Contract.Text <> "" Then
