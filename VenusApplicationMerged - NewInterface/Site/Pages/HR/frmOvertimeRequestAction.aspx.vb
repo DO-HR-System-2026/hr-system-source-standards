@@ -668,8 +668,8 @@ Partial Class frmOvertimeRequestAction
 
                 ClsEmployees.SendEmail("frmOvertimeRequestAction", Me.Page, 1, "SS_RequestActions", actionSerial)
                 ClsEmployees.SendEmail("SSRequestActions", Me.Page, 1, "SS_RequestActions", actionSerial)
-                Venus.Shared.Web.ClientSideActions.MsgBoxBasic(Page, objNav.SetLanguage(Page, "Save Done !/!تم الحفظ"))
-                Page.ClientScript.RegisterStartupScript(Me.GetType(), "", "CloseModalAndRefresh()", True)
+                'Venus.Shared.Web.ClientSideActions.MsgBoxBasic(Page, objNav.SetLanguage(Page, "Save Done !/!تم الحفظ"))
+                'Page.ClientScript.RegisterStartupScript(Me.GetType(), "", "CloseModalAndRefresh()", True)
                 'Page.ClientScript.RegisterStartupScript(Me.GetType(), "", "CloseWindow()", True)
 
 
